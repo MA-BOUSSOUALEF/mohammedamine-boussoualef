@@ -41,8 +41,8 @@ const Contact = () => {
   const contactInfo = [
     { 
       icon: <Mail className="w-5 h-5" />, 
-      text: "boussoualef.ma@gmail.com",
-      link: "mailto:boussoualef.ma@gmail.com"
+      text: "mohammedamineboussoialef@gmail.com",
+      link: "mailto:mohammedamineboussoialef@gmail.com"
     },
     { 
       icon: <MapPin className="w-5 h-5" />, 
