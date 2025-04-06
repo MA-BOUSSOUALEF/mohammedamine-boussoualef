@@ -83,7 +83,7 @@ const About = () => {
         <div className="relative pl-8 border-l-2 border-blue-500">
           <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-blue-600"></div>
           <h3 className="font-bold text-lg text-gray-900 dark:text-white">MSc in Artificial Intelligence</h3>
-          <p className="text-blue-600 dark:text-blue-400 font-medium">University of Toulouse III (2022-2024)</p>
+          <p className="text-blue-600 dark:text-blue-400 font-medium">University of Toulouse III (2024-2026)</p>
           <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">Specializing in machine learning, deep learning, and natural language processing</p>
         </div>
         
