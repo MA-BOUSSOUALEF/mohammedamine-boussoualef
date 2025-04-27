@@ -14,12 +14,20 @@ const Projects = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   
   const projects: Project[] = [
+  
     {
       title: "Chatbot Conversational with Multiple PDFs",
       technologies: "Python, Hugging Face Transformers, FAISS, PyPDF2, LangChain, Flask, Streamlit",
       description: "Interactive RAG Chatbot Providing Accurate Answers from PDFs Users ask questions and receive answers based on the content of the embedded files.",
       image: "https://i.ibb.co/yFWLvspS/RAG.png",
       github: "https://github.com/MA-BOUSSOUALEF/RAG-Chat-with-Multiple-PDFs-LangChain"
+    }, 
+    {
+      "title": "Car Price Prediction Web App",
+      "technologies": "Azure Machine Learning, Python, Flask, JavaScript, HTML, CSS",
+      "description": "A web application that predicts the price of a car based on user inputs such as make, model, engine type, and more. The model is hosted on Azure, and the frontend is deployed on Vercel for easy access.",
+      "image": "https://i.ibb.co/4RDWv1Nx/car-pridection-price-using-azure-ML.jpg",
+      "github": "https://github.com/MA-BOUSSOUALEF/predict-auto-price"
     },
     {
       title: "Automated CV Quality Assessment",
@@ -50,6 +58,13 @@ const Projects = () => {
       github: "https://github.com/MA-BOUSSOUALEF/Traitement-d-image"
     },
     {
+      "title": "Heartbeat Prediction using Scikit-Learn with PCA and Non-PCA Models",
+      "technologies": "Python, Scikit-Learn, PCA, Machine Learning, Supervised Learning, Unsupervised Learning",
+      "description": "In this repository, we perform classification and data processing using Scikit-Learn. The project includes 8 programs: 2 supervised learning models with PCA, 2 supervised models without PCA, 2 unsupervised models with PCA, and 2 unsupervised models without PCA. These models are designed to predict future heartbeats based on past data, utilizing both dimensionality reduction (PCA) and traditional machine learning techniques for accurate predictions.",
+      "image": "https://i.ibb.co/jvPn3jGW/Heartbeat-Prediction-using-Scikit-Learn-with-PCA-and-Non-PCA-Models.jpg",
+      "github": "https://github.com/MA-BOUSSOUALEF/Classification-of-Heartbeats"
+    },    
+    {
       title: "Twitter Data Pipeline",
       technologies: "Python3, Airflow, AWS, Docker, Pandas, EC2",
       description: "A data pipeline that extracts, transforms, and loads Twitter data using Python, Airflow, and AWS, then serves it via a local API.",
@@ -62,7 +77,38 @@ const Projects = () => {
       description: "A data pipeline built with Python, Airflow, and AWS to process data from multiple companies, analyze sales trends, product performance, and customer behavior.",
       image: "https://i.ibb.co/tMZtNcHx/Trend-Product.png",
       github: "https://github.com/MA-BOUSSOUALEF/Project-E-Commerce-Sales-Analytics-Pipeline"
+    },
+    {
+      "title": "Optimized Waste Collection System",
+      "technologies": "Flutter, MongoDB (NoSQL), Advanced Optimization Algorithms",
+      "description": "An advanced waste collection system designed to optimize waste management in urban and rural areas using sophisticated optimization algorithms. The system improves efficiency by optimizing collection schedules, managing waste levels, and planning the most efficient routes for waste trucks, with a mobile app developed in Flutter for real-time monitoring and control.",
+      "image": "https://i.ibb.co/35cNsq8F/sitec.png",
+      "github": "https://github.com/MA-BOUSSOUALEF/Hackaton-Sitec"
+    },
+    {
+      "title": "Student Management System with Spring Boot & React JS",
+      "technologies": "Spring Boot, React.js, MongoDB, RESTful APIs, JWT Authentication",
+      "description": "A comprehensive student management system designed to manage student records, courses, and grades. Built with Spring Boot for the backend and React.js for the frontend, this system offers a responsive and interactive UI. The backend supports RESTful APIs, JWT authentication for secure access, and MongoDB for efficient NoSQL data storage.",
+      "image": "https://i.ibb.co/2YCrc9jq/acceuil.png",
+      "github": "https://github.com/MA-BOUSSOUALEF/Projet-Gestion-des-Etudiantes-avec-SpringBoot-ReactJs"
+    },
+    {
+      "title": "University Library Management System with PL/SQL",
+      "technologies": "PL/SQL, SQL, Java, Hibernate",
+      "description": "A robust library management system designed for university libraries using PL/SQL. This system manages book inventories, student records, and transaction logs for borrowing and returning books. With the use of advanced SQL queries and procedures, it ensures efficient data management and supports dynamic reports and searches for users and administrators.",
+      "image": "https://i.ibb.co/m56bmY9W/Projet-Gestion-Bibliotheque-d-Universite-avec-PL-SQL.jpg",
+      "github": "https://github.com/MA-BOUSSOUALEF/Projet-Gestion-Bibliotheque-d-Universite-avec-PL-SQL"
+    },
+    {
+      "title": "Hackathon Team Management System",
+      "technologies": "JavaScript, PHP, HTML, Tailwind CSS, MySQL",
+      "description": "A web-based team management system designed for organizing and managing hackathon teams. Built with PHP for the backend, JavaScript for interactive features, and Tailwind CSS for a responsive and modern design. The system allows users to create and manage teams, track progress, and manage hackathon submissions. It uses MySQL for efficient data storage and querying, providing an easy-to-use interface for hackathon organizers and participants.",
+      "image": "https://i.ibb.co/dvfkvNg/hackathon.png",
+      "github": "https://github.com/MA-BOUSSOUALEF/GestionEquipeHackathon"
     }
+    
+    
+    
   ];
 
   // Animation variants
