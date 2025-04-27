@@ -66,7 +66,7 @@ const Skills = () => {
     },
     {
       name: "Scikit-learn",
-      level: 75,
+      level: 90,
       icon: <Flask className="w-8 h-8" />,
       description: "Mastery of classical ML algorithms, feature engineering, and data preprocessing. Building robust pipelines for production machine learning systems.",
       color: "from-blue-400 to-indigo-600",
