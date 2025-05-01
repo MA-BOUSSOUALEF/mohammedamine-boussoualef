@@ -171,7 +171,7 @@ const Resume = () => {
           viewport={{ once: true }}
         >
           <motion.a 
-            href="https://drive.google.com/file/d/1YVTsRBzfQrbMUrk-76ngkTQUIEim0ody/view?usp=drive_link" 
+            href="https://drive.google.com/file/d/1YVTsRBzfQrbMUrk-76ngkTQUIEim0ody/view" 
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full overflow-hidden shadow-lg"
