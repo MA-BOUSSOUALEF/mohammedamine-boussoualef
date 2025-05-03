@@ -14,7 +14,6 @@ const Projects = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   
   const projects: Project[] = [
-  
     {
       title: "Chatbot Conversational with Multiple PDFs",
       technologies: "Python, Hugging Face Transformers, FAISS, PyPDF2, LangChain, Flask, Streamlit",
@@ -22,6 +21,13 @@ const Projects = () => {
       image: "https://i.ibb.co/yFWLvspS/RAG.png",
       github: "https://github.com/MA-BOUSSOUALEF/RAG-Chat-with-Multiple-PDFs-LangChain"
     }, 
+      {
+  "title": "MRI Tumor Detection System",
+  "technologies": "TensorFlow, Keras, Flask, Python, HTML, CSS",
+  "description": "Web application that detects brain tumors from MRI images using a pre-trained deep learning model. Users can upload an MRI image and get the tumor type (if present) along with a confidence score.",
+  "image": "https://i.ibb.co/hJh4mcZV/Brain-Tumor-Detection-using-deep-learning.jpg",
+  "github": "https://github.com/MA-BOUSSOUALEF/Brain-Tumor-Detection-"
+    },
     {
       "title": "Car Price Prediction Web App",
       "technologies": "Azure Machine Learning, Python, Flask, JavaScript, HTML, CSS",
